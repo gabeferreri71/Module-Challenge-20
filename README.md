@@ -27,4 +27,17 @@
 ###    }
 
 
-### 
+### We next make a public payable function named deposit, with the same contractBalance = address(this).balance within the function as above.
+
+### We next make a public function named setAccounts that receive the two 'address payable' arguments as account1 and account2. Lastly to finish the code, we add the default fallback function for ether sent from outside the deposit function with:
+
+### function() external payable {
+        
+###    }
+
+## Step 2: Compile and Deploy Your Contract in the JavaScript VM 
+### Please see screenshots
+
+## Step 3: Interact with Your Deployed Smart Contract
+### Please refer to screenshots
+### Note: I am missing the screenshot for the 5 eth withdrawal contract balance, but do have the 10 eth one to show the process validation. 
